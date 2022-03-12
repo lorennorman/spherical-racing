@@ -39,7 +39,7 @@ transform = Transform( -0.710026, 0, -0.706885, 0, 1.00191, 0, 0.706885, 0, -0.7
 script = ExtResource( 3 )
 
 [node name="Camera" type="Camera" parent="police"]
-transform = Transform( 0.998094, 2.98023e-08, 2.98023e-08, 0, 0.784111, 0.617544, 0, -0.617544, 0.784111, 0.0599222, 8.20938, 6.81483 )
+transform = Transform( 0.998007, 0.000222087, 0.0131858, -0.0060162, 0.895723, 0.440267, -0.0117354, -0.440308, 0.895646, 0.0599184, 8.20937, 6.81483 )
 
 [node name="RigidBody" type="RigidBody" parent="."]
 transform = Transform( 1.00064, 0, 0, 0, 1.00064, 0, 0, 0, 1.00064, 18.8149, 26.033, 16.4837 )

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://addons/zylann.hterrain/hterrain_texture_set.gd" type="Script" id=1]
+[ext_resource path="res://terrain_data/textures/dirt_grass_gravel_road_slot1_albedo_bump.packed_tex" type="Texture" id=2]
+[ext_resource path="res://terrain_data/textures/dirt_grass_gravel_road_slot0_albedo_bump.packed_tex" type="Texture" id=3]
+[ext_resource path="res://terrain_data/textures/dirt_grass_gravel_road_slot1_normal_roughness.packed_tex" type="Texture" id=4]
+[ext_resource path="res://terrain_data/textures/dirt_grass_gravel_road_slot0_normal_roughness.packed_tex" type="Texture" id=5]
+
+[resource]
+script = ExtResource( 1 )
+mode = 0
+textures = [ [ ExtResource( 3 ), ExtResource( 2 ) ], [ ExtResource( 5 ), ExtResource( 4 ) ] ]

@@ -1,0 +1,18 @@
+[remap]
+
+importer="hterrain_packed_texture_importer"
+type="StreamTexture"
+path.s3tc="res://.import/dirt_grass_gravel_road_slot1_normal_roughness.packed_tex-86a34af167eba4cc139e846c01675ac6.s3tc.stex"
+path.etc2="res://.import/dirt_grass_gravel_road_slot1_normal_roughness.packed_tex-86a34af167eba4cc139e846c01675ac6.etc2.stex"
+
+[deps]
+
+source_file="res://terrain_data/textures/dirt_grass_gravel_road_slot1_normal_roughness.packed_tex"
+dest_files=[ "res://.import/dirt_grass_gravel_road_slot1_normal_roughness.packed_tex-86a34af167eba4cc139e846c01675ac6.s3tc.stex", "res://.import/dirt_grass_gravel_road_slot1_normal_roughness.packed_tex-86a34af167eba4cc139e846c01675ac6.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+flags/repeat=1
+flags/filter=true
+flags/mipmaps=true

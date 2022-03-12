@@ -1,0 +1,18 @@
+[remap]
+
+importer="hterrain_packed_texture_importer"
+type="StreamTexture"
+path.s3tc="res://.import/dirt_grass_gravel_road_slot1_albedo_bump.packed_tex-8584067b8cd3df3496b079a82f54a81a.s3tc.stex"
+path.etc2="res://.import/dirt_grass_gravel_road_slot1_albedo_bump.packed_tex-8584067b8cd3df3496b079a82f54a81a.etc2.stex"
+
+[deps]
+
+source_file="res://terrain_data/textures/dirt_grass_gravel_road_slot1_albedo_bump.packed_tex"
+dest_files=[ "res://.import/dirt_grass_gravel_road_slot1_albedo_bump.packed_tex-8584067b8cd3df3496b079a82f54a81a.s3tc.stex", "res://.import/dirt_grass_gravel_road_slot1_albedo_bump.packed_tex-8584067b8cd3df3496b079a82f54a81a.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+flags/repeat=1
+flags/filter=true
+flags/mipmaps=true

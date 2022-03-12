@@ -3,6 +3,6 @@
 	"resolution": 512,
 	"src": {
 		"a": "res://terrain_data/textures/ground/Ground048_1K_Roughness.jpg",
-		"rgb": "res://terrain_data/textures/ground/Ground048_1K_NormalDX.jpg"
+		"rgb": "res://terrain_data/textures/ground/Ground048_1K_NormalGL.jpg"
 	}
 }

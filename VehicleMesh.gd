@@ -1,16 +1,28 @@
+tool
 extends Spatial
 
-onready var ground_ray = $RayCast
-onready var mesh = $PoliceCar
-onready var right_wheel = $PoliceCar/tmpParent/police/wheel_frontRight
-onready var left_wheel = $PoliceCar/tmpParent/police/wheel_frontLeft
-var is_on_ground = false
+var vehicle setget set_vehicle
+
+
+func _ready():
+  if !vehicle: set_vehicle("police")
+
+func set_vehicle(vehicle_type):
+  var vehicle_scene = load("res://models/%s.glb" % vehicle_type)
+  if !vehicle_scene:
+    print("No vehicle found: %s" % vehicle_type)
+    return
+
+  if vehicle:
+    remove_child(vehicle)
+
+  vehicle = vehicle_scene.instance()
+  add_child(vehicle)
 
 
 # TODO: none of these special effects actually work...
 
-func _process(delta):
-  is_on_ground = ground_ray.is_colliding()
+
 #  var n = ground_ray.get_collision_normal()
 #  var xform = align_with_y(mesh.global_transform, n.normalized())
 #  mesh.global_transform = mesh.global_transform.interpolate_with(xform, 10 * delta)

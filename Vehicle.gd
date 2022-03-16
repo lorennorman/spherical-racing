@@ -2,13 +2,14 @@ extends Spatial
 
 onready var mesh = $VehicleMesh
 onready var rigid_body = $RigidBody
-onready var camera = $Camera
+onready var camera = $VehicleMesh/Camera
 onready var camera_offset = camera.translation - mesh.translation
+onready var ground_ray = $VehicleMesh/RayCast
 
 var offset_mesh_from_sphere = Vector3(0, -1, 0)
 export var acceleration = 50
 var steering = 21
-var turn_speed = 5
+var turn_speed = 7
 var body_tilt = 35
 
 var speed_input = 0
@@ -19,14 +20,10 @@ var last_frame_on_ground = false
 func _process(_delta):
   speed_input = 0
   rotate_input = 0
-
-  if last_frame_on_ground != mesh.is_on_ground:
-    print("grounded:", mesh.is_on_ground)
-    last_frame_on_ground = mesh.is_on_ground
-
+  var is_on_ground = ground_ray.is_colliding()
+  
   # Can't steer/accelerate when in the air
-  if not mesh.is_on_ground:
-    return
+  if !is_on_ground: return
 
   # Get accelerate/brake input
   speed_input += Input.get_action_strength("accelerate")
@@ -43,7 +40,7 @@ func _physics_process(delta):
   # Move the mesh to wherever the RigidBody is
   mesh.transform.origin = rigid_body.transform.origin + offset_mesh_from_sphere
   # Camera chases
-  camera.translation = camera_offset + mesh.translation
+#  camera.translation = camera_offset + mesh.translation
 
   # Turn the mesh
   var new_basis = mesh.global_transform.basis.rotated(mesh.global_transform.basis.y, rotate_input)

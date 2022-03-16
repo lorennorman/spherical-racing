@@ -1,11 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Vehicle.tscn" type="PackedScene" id=1]
-[ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=5]
-[ext_resource path="res://terrain_data/data.hterrain" type="Resource" id=6]
+[ext_resource path="res://terrain_data/data.hterrain" type="Resource" id=1]
+[ext_resource path="res://terrain_data/textures/dirt_grass_gravel_road.tres" type="Resource" id=2]
+[ext_resource path="res://Vehicle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://PauseMenu.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Game.gd" type="Script" id=5]
+[ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=6]
 [ext_resource path="res://addons/zylann.hterrain/hterrain_detail_layer.gd" type="Script" id=7]
 [ext_resource path="res://addons/zylann.hterrain/tools/icons/icon_detail_layer_node.svg" type="Texture" id=8]
-[ext_resource path="res://terrain_data/textures/dirt_grass_gravel_road.tres" type="Resource" id=13]
 
 [sub_resource type="Environment" id=1]
 ambient_light_color = Color( 0.615686, 0.6, 0.517647, 1 )
@@ -18,18 +20,26 @@ colors = PoolColorArray( 0.00794737, 0.298828, 0.00215293, 1, 0.164574, 0.794922
 gradient = SubResource( 7 )
 width = 16
 
-[node name="Spatial" type="Spatial"]
+[node name="Game" type="Spatial"]
+pause_mode = 2
+script = ExtResource( 5 )
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+[node name="PauseMenu" parent="." instance=ExtResource( 4 )]
+pause_mode = 2
+
+[node name="World" type="Spatial" parent="."]
+pause_mode = 1
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="World"]
 environment = SubResource( 1 )
 
-[node name="DirectionalLight" type="DirectionalLight" parent="."]
+[node name="DirectionalLight" type="DirectionalLight" parent="World"]
 transform = Transform( 1, 0, 0, 0, -0.97067, 0.240414, 0, -0.240414, -0.97067, 0, 28.7673, 0 )
 shadow_enabled = true
 
-[node name="HTerrain2" type="Spatial" parent="."]
-script = ExtResource( 5 )
-_terrain_data = ExtResource( 6 )
+[node name="HTerrain2" type="Spatial" parent="World"]
+script = ExtResource( 6 )
+_terrain_data = ExtResource( 1 )
 chunk_size = 32
 collision_enabled = true
 collision_layer = 16
@@ -37,13 +47,13 @@ collision_mask = 0
 shader_type = "Classic4Lite"
 custom_shader = null
 custom_globalmap_shader = null
-texture_set = ExtResource( 13 )
+texture_set = ExtResource( 2 )
 shader_params/u_ground_uv_scale = 20
 shader_params/u_depth_blending = true
 shader_params/u_triplanar = false
 shader_params/u_tile_reduction = Plane( 0, 0, 0, 0 )
 
-[node name="HTerrainDetailLayer" type="Spatial" parent="HTerrain2"]
+[node name="HTerrainDetailLayer" type="Spatial" parent="World/HTerrain2"]
 visible = false
 script = ExtResource( 7 )
 __meta__ = {
@@ -56,5 +66,7 @@ shader_params/u_globalmap_tint_top = null
 shader_params/u_bottom_ao = null
 shader_params/u_instance_scale = Vector3( 1, 1, 1 )
 
-[node name="Vehicle" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 312.775, 10.0039, 127.173 )
+[node name="Vehicle" parent="World" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.5719, 10.0039, 20.1022 )
+
+[connection signal="new_vehicle_selected" from="PauseMenu" to="." method="_new_vehicle_selected"]

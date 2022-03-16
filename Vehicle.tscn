@@ -1,7 +1,6 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://vehicles/PoliceCar.tscn" type="PackedScene" id=2]
-[ext_resource path="res://VehicleMesh.gd" type="Script" id=3]
+[ext_resource path="res://vehicles/VehicleMesh.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Vehicle.gd" type="Script" id=4]
 
 [sub_resource type="PhysicsMaterial" id=1]
@@ -16,13 +15,12 @@ albedo_color = Color( 0.0823529, 0.509804, 0.572549, 0.0705882 )
 [node name="Vehicle" type="Spatial"]
 script = ExtResource( 4 )
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 0.999977, 0.00671947, 2.00256e-10, -0.00603039, 0.897431, 0.441114, 0.00296405, -0.441104, 0.897451, -1.21967, 6.98895, 6.0335 )
-far = 234.2
-
-[node name="VehicleMesh" type="Spatial" parent="."]
+[node name="VehicleMesh" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
-script = ExtResource( 3 )
+
+[node name="Camera" type="Camera" parent="VehicleMesh"]
+transform = Transform( 0.999977, 0.00671947, -1.2341e-09, -0.00603039, 0.897431, 0.441114, 0.00296405, -0.441104, 0.897451, -1.21967, 7.98895, 6.0335 )
+far = 234.2
 
 [node name="RayCast" type="RayCast" parent="VehicleMesh"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
@@ -33,13 +31,12 @@ collision_mask = 16
 debug_shape_custom_color = Color( 0.745098, 0.0431373, 0.0431373, 1 )
 debug_shape_thickness = 5.0
 
-[node name="PoliceCar" parent="VehicleMesh" instance=ExtResource( 2 )]
-
 [node name="RigidBody" type="RigidBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00406027, 0, 0.00529122 )
 collision_mask = 17
-mass = 0.535714
+mass = 0.612245
 physics_material_override = SubResource( 1 )
-gravity_scale = 10.0
+gravity_scale = 8.0
 angular_damp = 5.0
 
 [node name="CSGSphere" type="CSGSphere" parent="RigidBody"]

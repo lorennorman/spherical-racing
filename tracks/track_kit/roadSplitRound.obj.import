@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadSplitRound.obj-365b1cf1929ef1cb57d78362614181fc.mesh"
+
+[deps]
+
+files=[ "res://.import/roadSplitRound.obj-365b1cf1929ef1cb57d78362614181fc.mesh" ]
+
+source_file="res://tracks/track_kit/roadSplitRound.obj"
+dest_files=[ "res://.import/roadSplitRound.obj-365b1cf1929ef1cb57d78362614181fc.mesh", "res://.import/roadSplitRound.obj-365b1cf1929ef1cb57d78362614181fc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

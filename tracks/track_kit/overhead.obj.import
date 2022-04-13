@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/overhead.obj-7e470c3f1f078f9453a46f920e4c36ec.mesh"
+
+[deps]
+
+files=[ "res://.import/overhead.obj-7e470c3f1f078f9453a46f920e4c36ec.mesh" ]
+
+source_file="res://tracks/track_kit/overhead.obj"
+dest_files=[ "res://.import/overhead.obj-7e470c3f1f078f9453a46f920e4c36ec.mesh", "res://.import/overhead.obj-7e470c3f1f078f9453a46f920e4c36ec.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

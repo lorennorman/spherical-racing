@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flagCheckers.obj-74da1aaa9d0f93e8183c31c894b6ac1e.mesh"
+
+[deps]
+
+files=[ "res://.import/flagCheckers.obj-74da1aaa9d0f93e8183c31c894b6ac1e.mesh" ]
+
+source_file="res://tracks/track_kit/flagCheckers.obj"
+dest_files=[ "res://.import/flagCheckers.obj-74da1aaa9d0f93e8183c31c894b6ac1e.mesh", "res://.import/flagCheckers.obj-74da1aaa9d0f93e8183c31c894b6ac1e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

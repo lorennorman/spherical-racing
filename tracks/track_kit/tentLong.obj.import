@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tentLong.obj-ea8153c92edfbc60efd2d43abcad226c.mesh"
+
+[deps]
+
+files=[ "res://.import/tentLong.obj-ea8153c92edfbc60efd2d43abcad226c.mesh" ]
+
+source_file="res://tracks/track_kit/tentLong.obj"
+dest_files=[ "res://.import/tentLong.obj-ea8153c92edfbc60efd2d43abcad226c.mesh", "res://.import/tentLong.obj-ea8153c92edfbc60efd2d43abcad226c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

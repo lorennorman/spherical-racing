@@ -1,0 +1,16 @@
+# Created by Kenney (www.kenney.nl)
+
+newmtl _defaultMat
+Ka 1 1 1 
+Kd 1 1 1
+Ks 0.330000 0.330000 0.330000
+
+newmtl grey
+Ka 1 1 1
+Kd 0.945098 0.9490196 0.9647059
+Ks 0.330000 0.330000 0.330000
+
+newmtl grass
+Ka 1 1 1
+Kd 0.3019608 0.5607843 0.4313726
+Ks 0.330000 0.330000 0.330000

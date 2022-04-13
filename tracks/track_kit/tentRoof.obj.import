@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tentRoof.obj-f08d192c69ce420ceb455bdbbe28d183.mesh"
+
+[deps]
+
+files=[ "res://.import/tentRoof.obj-f08d192c69ce420ceb455bdbbe28d183.mesh" ]
+
+source_file="res://tracks/track_kit/tentRoof.obj"
+dest_files=[ "res://.import/tentRoof.obj-f08d192c69ce420ceb455bdbbe28d183.mesh", "res://.import/tentRoof.obj-f08d192c69ce420ceb455bdbbe28d183.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadCornerLargerSand.obj-325bb9e605ccab64a991aec675c8697c.mesh"
+
+[deps]
+
+files=[ "res://.import/roadCornerLargerSand.obj-325bb9e605ccab64a991aec675c8697c.mesh" ]
+
+source_file="res://tracks/track_kit/roadCornerLargerSand.obj"
+dest_files=[ "res://.import/roadCornerLargerSand.obj-325bb9e605ccab64a991aec675c8697c.mesh", "res://.import/roadCornerLargerSand.obj-325bb9e605ccab64a991aec675c8697c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

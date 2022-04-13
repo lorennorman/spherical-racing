@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pylon.obj-1d455c56547e9017cf30b2b71ac46424.mesh"
+
+[deps]
+
+files=[ "res://.import/pylon.obj-1d455c56547e9017cf30b2b71ac46424.mesh" ]
+
+source_file="res://tracks/track_kit/pylon.obj"
+dest_files=[ "res://.import/pylon.obj-1d455c56547e9017cf30b2b71ac46424.mesh", "res://.import/pylon.obj-1d455c56547e9017cf30b2b71ac46424.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

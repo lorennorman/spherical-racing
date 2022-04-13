@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/billboardLow.obj-281e6047d6f8ad895831f6eda31b7723.mesh"
+
+[deps]
+
+files=[ "res://.import/billboardLow.obj-281e6047d6f8ad895831f6eda31b7723.mesh" ]
+
+source_file="res://tracks/track_kit/billboardLow.obj"
+dest_files=[ "res://.import/billboardLow.obj-281e6047d6f8ad895831f6eda31b7723.mesh", "res://.import/billboardLow.obj-281e6047d6f8ad895831f6eda31b7723.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

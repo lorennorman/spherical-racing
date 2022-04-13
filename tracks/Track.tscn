@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tracks/offset_tiles.gd" type="Script" id=1]
+[ext_resource path="res://tracks/track_kit/road_library.tres" type="MeshLibrary" id=2]
+[ext_resource path="res://tracks/track_kit/decoration_library.tres" type="MeshLibrary" id=3]
+
+[node name="Track" type="Spatial"]
+
+[node name="RoadMap" type="GridMap" parent="."]
+mesh_library = ExtResource( 2 )
+cell_size = Vector3( 0.5, 0.5, 0.5 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PoolIntArray( 65531, 1, 655364, 1, 3, 1441838, 3, 3, 18, 65531, 3, 1441810, 65533, 3, 1441838, 65535, 3, 1441838, 1, 65535, 1048580, 65535, 65535, 1048622 )
+}
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_clip_": 0
+}
+offset = Vector3( 0.5, 0, -0.5 )
+
+[node name="DecorationMap" type="GridMap" parent="."]
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 0.2, 0.2, 0.2 )
+cell_center_y = false
+data = {
+"cells": PoolIntArray( 65518, 0, 1441793, 7, 4, 655362, 65530, 6, 1441794, 65530, 8, 1441794, 65530, 12, 1441792, 2, 13, 5, 8, 13, 5, 3, 65528, 655365, 65531, 65528, 655365, 65530, 65533, 1441794 )
+}
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_clip_": 0
+}
+offset = Vector3( 0.2, 0, -0.2 )

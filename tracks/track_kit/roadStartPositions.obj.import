@@ -14,7 +14,7 @@ dest_files=[ "res://.import/roadStartPositions.obj-84444e2ed1ac6e872126b709341ed
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 20, 20, 20 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

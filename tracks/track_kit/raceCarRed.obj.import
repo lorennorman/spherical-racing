@@ -14,7 +14,7 @@ dest_files=[ "res://.import/raceCarRed.obj-ce058f64c910f343cf4ec79498fb24f2.mesh
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 20, 20, 20 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

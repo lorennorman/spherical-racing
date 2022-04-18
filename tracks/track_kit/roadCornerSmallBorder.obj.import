@@ -14,7 +14,7 @@ dest_files=[ "res://.import/roadCornerSmallBorder.obj-e2d9221a2342ecfb46dfc49463
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 20, 20, 20 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

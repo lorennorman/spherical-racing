@@ -14,7 +14,7 @@ dest_files=[ "res://.import/lightRed.obj-9eafa33432afdffe72a9cc29b67e22b8.mesh",
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 20, 20, 20 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

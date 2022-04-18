@@ -14,7 +14,7 @@ dest_files=[ "res://.import/roadSplitSmall.obj-45d1c7c313b182f393fe5e0e07b97c84.
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 20, 20, 20 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

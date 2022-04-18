@@ -16,6 +16,7 @@ textures = [ [ ExtResource( 1 ) ], [ ExtResource( 7 ) ] ]
 [node name="Track" type="Spatial"]
 
 [node name="RoadMap" type="GridMap" parent="."]
+transform = Transform( 0.999998, 9.53634e-11, 0.00218166, -9.53634e-11, 1, -1.04216e-13, -0.00218166, -1.04216e-13, 0.999998, 0, 0, 0 )
 mesh_library = ExtResource( 2 )
 cell_size = Vector3( 10, 10, 10 )
 cell_center_x = false
@@ -41,7 +42,7 @@ __meta__ = {
 }
 
 [node name="HTerrain" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -256, -2, -256 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -256, -0.02, -256 )
 script = ExtResource( 6 )
 _terrain_data = ExtResource( 5 )
 chunk_size = 32

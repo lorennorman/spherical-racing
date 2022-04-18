@@ -41,6 +41,7 @@ continuous_cd = true
 angular_damp = 5.0
 
 [node name="CSGSphere" type="CSGSphere" parent="RigidBody"]
+radius = 1.66
 material = SubResource( 2 )
 
 [node name="CollisionShape" type="CollisionShape" parent="RigidBody"]

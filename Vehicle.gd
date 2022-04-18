@@ -21,9 +21,9 @@ func _process(_delta):
   speed_input = 0
   rotate_input = 0
   var is_on_ground = ground_ray.is_colliding()
-  
+
   # Can't steer/accelerate when in the air
-  if !is_on_ground: return
+#  if !is_on_ground: return
 
   # Get accelerate/brake input
   speed_input += Input.get_action_strength("accelerate")

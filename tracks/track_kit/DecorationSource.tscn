@@ -1,66 +1,92 @@
-[gd_scene load_steps=57 format=2]
+[gd_scene load_steps=59 format=2]
 
-[ext_resource path="res://tracks/track_kit/lightColored.obj" type="ArrayMesh" id=1]
-[ext_resource path="res://tracks/track_kit/grandStandCoveredRound.obj" type="ArrayMesh" id=2]
-[ext_resource path="res://tracks/track_kit/grass.obj" type="ArrayMesh" id=3]
-[ext_resource path="res://tracks/track_kit/grandStandRound.obj" type="ArrayMesh" id=4]
-[ext_resource path="res://tracks/track_kit/lightPostLarge.obj" type="ArrayMesh" id=5]
-[ext_resource path="res://tracks/track_kit/lightPostModern.obj" type="ArrayMesh" id=6]
-[ext_resource path="res://tracks/track_kit/lightPost_exclusive.obj" type="ArrayMesh" id=7]
-[ext_resource path="res://tracks/track_kit/lightRed.obj" type="ArrayMesh" id=8]
-[ext_resource path="res://tracks/track_kit/lightRedDouble.obj" type="ArrayMesh" id=9]
-[ext_resource path="res://tracks/track_kit/overhead.obj" type="ArrayMesh" id=10]
-[ext_resource path="res://tracks/track_kit/overheadLights.obj" type="ArrayMesh" id=11]
-[ext_resource path="res://tracks/track_kit/overheadRound.obj" type="ArrayMesh" id=12]
-[ext_resource path="res://tracks/track_kit/overheadRoundColored.obj" type="ArrayMesh" id=13]
-[ext_resource path="res://tracks/track_kit/pitsGarage.obj" type="ArrayMesh" id=14]
-[ext_resource path="res://tracks/track_kit/pitsGarageClosed.obj" type="ArrayMesh" id=15]
-[ext_resource path="res://tracks/track_kit/pitsGarageCorner.obj" type="ArrayMesh" id=16]
-[ext_resource path="res://tracks/track_kit/pitsOffice.obj" type="ArrayMesh" id=17]
-[ext_resource path="res://tracks/track_kit/raceCarWhite.obj" type="ArrayMesh" id=18]
-[ext_resource path="res://tracks/track_kit/radarEquipment.obj" type="ArrayMesh" id=19]
-[ext_resource path="res://tracks/track_kit/rail.obj" type="ArrayMesh" id=20]
-[ext_resource path="res://tracks/track_kit/railDouble.obj" type="ArrayMesh" id=21]
-[ext_resource path="res://tracks/track_kit/ramp.obj" type="ArrayMesh" id=22]
-[ext_resource path="res://tracks/track_kit/flagRed.obj" type="ArrayMesh" id=23]
-[ext_resource path="res://tracks/track_kit/flagGreen.obj" type="ArrayMesh" id=24]
-[ext_resource path="res://tracks/track_kit/grandStand.obj" type="ArrayMesh" id=25]
-[ext_resource path="res://tracks/track_kit/grandStandAwning.obj" type="ArrayMesh" id=26]
-[ext_resource path="res://tracks/track_kit/grandStandCovered.obj" type="ArrayMesh" id=27]
-[ext_resource path="res://tracks/track_kit/flagTankco.obj" type="ArrayMesh" id=28]
-[ext_resource path="res://tracks/track_kit/flagCheckersSmall.obj" type="ArrayMesh" id=29]
-[ext_resource path="res://tracks/track_kit/bannerTowerRed.obj" type="ArrayMesh" id=30]
-[ext_resource path="res://tracks/track_kit/bannerTowerGreen.obj" type="ArrayMesh" id=31]
-[ext_resource path="res://tracks/track_kit/barrierRed.obj" type="ArrayMesh" id=32]
-[ext_resource path="res://tracks/track_kit/barrierWall.obj" type="ArrayMesh" id=33]
-[ext_resource path="res://tracks/track_kit/barrierWhite.obj" type="ArrayMesh" id=34]
-[ext_resource path="res://tracks/track_kit/billboard.obj" type="ArrayMesh" id=35]
-[ext_resource path="res://tracks/track_kit/billboardDouble_exclusive.obj" type="ArrayMesh" id=36]
-[ext_resource path="res://tracks/track_kit/billboardLow.obj" type="ArrayMesh" id=37]
-[ext_resource path="res://tracks/track_kit/billboardLower.obj" type="ArrayMesh" id=38]
-[ext_resource path="res://tracks/track_kit/camera_exclusive.obj" type="ArrayMesh" id=39]
-[ext_resource path="res://tracks/track_kit/fenceCurved.obj" type="ArrayMesh" id=40]
-[ext_resource path="res://tracks/track_kit/fenceStraight.obj" type="ArrayMesh" id=41]
-[ext_resource path="res://tracks/track_kit/flagCheckers.obj" type="ArrayMesh" id=42]
-[ext_resource path="res://tracks/track_kit/tentClosedLong.obj" type="ArrayMesh" id=43]
-[ext_resource path="res://tracks/track_kit/tent.obj" type="ArrayMesh" id=44]
-[ext_resource path="res://tracks/track_kit/tentClosed.obj" type="ArrayMesh" id=45]
-[ext_resource path="res://tracks/track_kit/tentLong.obj" type="ArrayMesh" id=46]
-[ext_resource path="res://tracks/track_kit/tentRoof.obj" type="ArrayMesh" id=47]
-[ext_resource path="res://tracks/track_kit/tentRoofDouble.obj" type="ArrayMesh" id=48]
-[ext_resource path="res://tracks/track_kit/treeLarge.obj" type="ArrayMesh" id=49]
-[ext_resource path="res://tracks/track_kit/treeSmall.obj" type="ArrayMesh" id=50]
-[ext_resource path="res://tracks/track_kit/pitsOfficeRoof.obj" type="ArrayMesh" id=51]
-[ext_resource path="res://tracks/track_kit/pylon.obj" type="ArrayMesh" id=52]
-[ext_resource path="res://tracks/track_kit/raceCarGreen.obj" type="ArrayMesh" id=53]
-[ext_resource path="res://tracks/track_kit/raceCarOrange.obj" type="ArrayMesh" id=54]
-[ext_resource path="res://tracks/track_kit/pitsOfficeCorner.obj" type="ArrayMesh" id=55]
-[ext_resource path="res://tracks/track_kit/raceCarRed.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://tracks/track_kit/grandStandCovered.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://tracks/track_kit/flagCheckersSmall.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://tracks/track_kit/bannerTowerRed.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://tracks/track_kit/barrierRed.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://tracks/track_kit/barrierWhite.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://tracks/track_kit/barrierWall.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://tracks/track_kit/billboard.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://tracks/track_kit/billboardDouble_exclusive.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://tracks/track_kit/billboardLower.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://tracks/track_kit/camera_exclusive.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://tracks/track_kit/fenceCurved.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://tracks/track_kit/fenceStraight.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://tracks/track_kit/tentClosedLong.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://tracks/track_kit/tent.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://tracks/track_kit/tentClosed.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://tracks/track_kit/tentRoof.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://tracks/track_kit/tentRoofDouble.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://tracks/track_kit/treeLarge.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://tracks/track_kit/treeSmall.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://tracks/track_kit/pitsOfficeRoof.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://tracks/track_kit/pylon.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://tracks/track_kit/raceCarGreen.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://tracks/track_kit/raceCarOrange.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://tracks/track_kit/pitsOfficeCorner.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://tracks/track_kit/raceCarRed.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://tracks/track_kit/rail.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://tracks/track_kit/railDouble.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://tracks/track_kit/flagRed.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://tracks/track_kit/flagGreen.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://tracks/track_kit/grandStand.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://tracks/track_kit/grandStandAwning.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://tracks/track_kit/decoration_library.tres" type="MeshLibrary" id=32]
+[ext_resource path="res://tracks/track_kit/grandStandCoveredRound.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://tracks/track_kit/grandStandRound.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://tracks/track_kit/lightPost_exclusive.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://tracks/track_kit/lightRed.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://tracks/track_kit/grass.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://tracks/track_kit/MeshLibrarySource.gd" type="Script" id=38]
+[ext_resource path="res://tracks/track_kit/overhead.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://tracks/track_kit/overheadLights.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://tracks/track_kit/pitsGarageClosed.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://tracks/track_kit/pitsGarageCorner.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://tracks/track_kit/pitsOffice.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://tracks/track_kit/raceCarWhite.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://tracks/track_kit/radarEquipment.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://tracks/track_kit/overheadRound.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://tracks/track_kit/billboardLow.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://tracks/track_kit/flagCheckers.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://tracks/track_kit/tentLong.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://tracks/track_kit/lightRedDouble.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://tracks/track_kit/overheadRoundColored.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://tracks/track_kit/ramp.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://tracks/track_kit/flagTankco.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://tracks/track_kit/bannerTowerGreen.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://tracks/track_kit/pitsGarage.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://tracks/track_kit/lightPostModern.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://tracks/track_kit/lightPostLarge.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://tracks/track_kit/lightColored.obj" type="ArrayMesh" id=58]
 
-[node name="Spatial" type="Spatial"]
+[node name="MeshLibrarySource" type="Spatial"]
+script = ExtResource( 38 )
+mesh_library = ExtResource( 32 )
+
+[node name="Viewport" type="Viewport" parent="."]
+size = Vector2( 128, 128 )
+transparent_bg = true
+handle_input_locally = false
+hdr = false
+render_target_v_flip = true
+render_target_update_mode = 3
+
+[node name="PreviewCamera" type="Camera" parent="Viewport"]
+transform = Transform( -0.760712, 0.536097, -0.365947, 0, 0.563786, 0.825921, 0.64909, 0.628288, -0.428878, -50.696, 77.336, -10.609 )
+projection = 1
+fov = 66.4
+size = 80.99
+near = 0.01
+far = 150.0
+
+[node name="DirectionalLight" type="DirectionalLight" parent="Viewport"]
+transform = Transform( 0.853553, -0.146447, -0.5, 0.5, 0.5, 0.707107, 0.146447, -0.853553, 0.5, 0, 0, 0 )
+light_specular = 1.0
+editor_only = true
 
 [node name="bannerTowerGreen" type="MeshInstance" parent="."]
-mesh = ExtResource( 31 )
+visible = false
+mesh = ExtResource( 54 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -69,7 +95,8 @@ material/4 = null
 material/5 = null
 
 [node name="bannerTowerRed" type="MeshInstance" parent="."]
-mesh = ExtResource( 30 )
+visible = false
+mesh = ExtResource( 3 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -78,24 +105,28 @@ material/4 = null
 material/5 = null
 
 [node name="barrierRed" type="MeshInstance" parent="."]
-mesh = ExtResource( 32 )
+visible = false
+mesh = ExtResource( 4 )
 material/0 = null
 material/1 = null
 
 [node name="barrierWall" type="MeshInstance" parent="."]
-mesh = ExtResource( 33 )
+visible = false
+mesh = ExtResource( 6 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="barrierWhite" type="MeshInstance" parent="."]
-mesh = ExtResource( 34 )
+visible = false
+mesh = ExtResource( 5 )
 material/0 = null
 material/1 = null
 
 [node name="billboard" type="MeshInstance" parent="."]
-mesh = ExtResource( 35 )
+visible = false
+mesh = ExtResource( 7 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -106,7 +137,8 @@ material/6 = null
 material/7 = null
 
 [node name="billboardDouble_exclusive" type="MeshInstance" parent="."]
-mesh = ExtResource( 36 )
+visible = false
+mesh = ExtResource( 8 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -117,7 +149,8 @@ material/6 = null
 material/7 = null
 
 [node name="billboardLow" type="MeshInstance" parent="."]
-mesh = ExtResource( 37 )
+visible = false
+mesh = ExtResource( 47 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -128,7 +161,8 @@ material/6 = null
 material/7 = null
 
 [node name="billboardLower" type="MeshInstance" parent="."]
-mesh = ExtResource( 38 )
+visible = false
+mesh = ExtResource( 9 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -141,7 +175,8 @@ material/8 = null
 material/9 = null
 
 [node name="camera_exclusive" type="MeshInstance" parent="."]
-mesh = ExtResource( 39 )
+visible = false
+mesh = ExtResource( 10 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -150,21 +185,24 @@ material/4 = null
 material/5 = null
 
 [node name="fenceCurved" type="MeshInstance" parent="."]
-mesh = ExtResource( 40 )
+visible = false
+mesh = ExtResource( 11 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="fenceStraight" type="MeshInstance" parent="."]
-mesh = ExtResource( 41 )
+visible = false
+mesh = ExtResource( 12 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="flagCheckers" type="MeshInstance" parent="."]
-mesh = ExtResource( 42 )
+visible = false
+mesh = ExtResource( 48 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -172,7 +210,8 @@ material/3 = null
 material/4 = null
 
 [node name="flagCheckersSmall" type="MeshInstance" parent="."]
-mesh = ExtResource( 29 )
+visible = false
+mesh = ExtResource( 2 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -183,7 +222,8 @@ material/6 = null
 material/7 = null
 
 [node name="flagGreen" type="MeshInstance" parent="."]
-mesh = ExtResource( 24 )
+visible = false
+mesh = ExtResource( 29 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -191,14 +231,7 @@ material/3 = null
 material/4 = null
 
 [node name="flagRed" type="MeshInstance" parent="."]
-mesh = ExtResource( 23 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-
-[node name="flagTankco" type="MeshInstance" parent="."]
+visible = false
 mesh = ExtResource( 28 )
 material/0 = null
 material/1 = null
@@ -206,8 +239,18 @@ material/2 = null
 material/3 = null
 material/4 = null
 
+[node name="flagTankco" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
 [node name="grandStand" type="MeshInstance" parent="."]
-mesh = ExtResource( 25 )
+visible = false
+mesh = ExtResource( 30 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -218,7 +261,8 @@ material/6 = null
 material/7 = null
 
 [node name="grandStandAwning" type="MeshInstance" parent="."]
-mesh = ExtResource( 26 )
+visible = false
+mesh = ExtResource( 31 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -227,7 +271,8 @@ material/4 = null
 material/5 = null
 
 [node name="grandStandCovered" type="MeshInstance" parent="."]
-mesh = ExtResource( 27 )
+visible = false
+mesh = ExtResource( 1 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -240,7 +285,8 @@ material/8 = null
 material/9 = null
 
 [node name="grandStandCoveredRound" type="MeshInstance" parent="."]
-mesh = ExtResource( 2 )
+visible = false
+mesh = ExtResource( 33 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -253,7 +299,8 @@ material/8 = null
 material/9 = null
 
 [node name="grandStandRound" type="MeshInstance" parent="."]
-mesh = ExtResource( 4 )
+visible = false
+mesh = ExtResource( 34 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -264,12 +311,14 @@ material/6 = null
 material/7 = null
 
 [node name="grass" type="MeshInstance" parent="."]
-mesh = ExtResource( 3 )
+visible = false
+mesh = ExtResource( 37 )
 material/0 = null
 material/1 = null
 
 [node name="lightColored" type="MeshInstance" parent="."]
-mesh = ExtResource( 1 )
+visible = false
+mesh = ExtResource( 58 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -284,7 +333,8 @@ material/10 = null
 material/11 = null
 
 [node name="lightPostLarge" type="MeshInstance" parent="."]
-mesh = ExtResource( 5 )
+visible = false
+mesh = ExtResource( 57 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -293,14 +343,16 @@ material/4 = null
 material/5 = null
 
 [node name="lightPostModern" type="MeshInstance" parent="."]
-mesh = ExtResource( 6 )
+visible = false
+mesh = ExtResource( 56 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="lightPost_exclusive" type="MeshInstance" parent="."]
-mesh = ExtResource( 7 )
+visible = false
+mesh = ExtResource( 35 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -309,7 +361,8 @@ material/4 = null
 material/5 = null
 
 [node name="lightRed" type="MeshInstance" parent="."]
-mesh = ExtResource( 8 )
+visible = false
+mesh = ExtResource( 36 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -322,7 +375,8 @@ material/8 = null
 material/9 = null
 
 [node name="lightRedDouble" type="MeshInstance" parent="."]
-mesh = ExtResource( 9 )
+visible = false
+mesh = ExtResource( 50 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -335,12 +389,14 @@ material/8 = null
 material/9 = null
 
 [node name="overhead" type="MeshInstance" parent="."]
-mesh = ExtResource( 10 )
+visible = false
+mesh = ExtResource( 39 )
 material/0 = null
 material/1 = null
 
 [node name="overheadLights" type="MeshInstance" parent="."]
-mesh = ExtResource( 11 )
+visible = false
+mesh = ExtResource( 40 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -349,21 +405,24 @@ material/4 = null
 material/5 = null
 
 [node name="overheadRound" type="MeshInstance" parent="."]
-mesh = ExtResource( 12 )
+visible = false
+mesh = ExtResource( 46 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="overheadRoundColored" type="MeshInstance" parent="."]
-mesh = ExtResource( 13 )
+visible = false
+mesh = ExtResource( 51 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="pitsGarage" type="MeshInstance" parent="."]
-mesh = ExtResource( 14 )
+visible = false
+mesh = ExtResource( 55 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -374,7 +433,8 @@ material/6 = null
 material/7 = null
 
 [node name="pitsGarageClosed" type="MeshInstance" parent="."]
-mesh = ExtResource( 15 )
+visible = false
+mesh = ExtResource( 41 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -387,7 +447,8 @@ material/8 = null
 material/9 = null
 
 [node name="pitsGarageCorner" type="MeshInstance" parent="."]
-mesh = ExtResource( 16 )
+visible = false
+mesh = ExtResource( 42 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -400,7 +461,8 @@ material/8 = null
 material/9 = null
 
 [node name="pitsOffice" type="MeshInstance" parent="."]
-mesh = ExtResource( 17 )
+visible = false
+mesh = ExtResource( 43 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -411,7 +473,8 @@ material/6 = null
 material/7 = null
 
 [node name="pitsOfficeCorner" type="MeshInstance" parent="."]
-mesh = ExtResource( 55 )
+visible = false
+mesh = ExtResource( 24 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -420,7 +483,8 @@ material/4 = null
 material/5 = null
 
 [node name="pitsOfficeRoof" type="MeshInstance" parent="."]
-mesh = ExtResource( 51 )
+visible = false
+mesh = ExtResource( 20 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -431,12 +495,14 @@ material/6 = null
 material/7 = null
 
 [node name="pylon" type="MeshInstance" parent="."]
-mesh = ExtResource( 52 )
+visible = false
+mesh = ExtResource( 21 )
 material/0 = null
 material/1 = null
 
 [node name="raceCarGreen" type="MeshInstance" parent="."]
-mesh = ExtResource( 53 )
+visible = false
+mesh = ExtResource( 22 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -450,7 +516,8 @@ material/9 = null
 material/10 = null
 
 [node name="raceCarOrange" type="MeshInstance" parent="."]
-mesh = ExtResource( 54 )
+visible = false
+mesh = ExtResource( 23 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -464,7 +531,8 @@ material/9 = null
 material/10 = null
 
 [node name="raceCarRed" type="MeshInstance" parent="."]
-mesh = ExtResource( 56 )
+visible = false
+mesh = ExtResource( 25 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -478,7 +546,8 @@ material/9 = null
 material/10 = null
 
 [node name="raceCarWhite" type="MeshInstance" parent="."]
-mesh = ExtResource( 18 )
+visible = false
+mesh = ExtResource( 44 )
 material/0 = null
 material/1 = null
 material/2 = null
@@ -492,80 +561,92 @@ material/9 = null
 material/10 = null
 
 [node name="radarEquipment" type="MeshInstance" parent="."]
-mesh = ExtResource( 19 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-
-[node name="rail" type="MeshInstance" parent="."]
-mesh = ExtResource( 20 )
-material/0 = null
-material/1 = null
-
-[node name="railDouble" type="MeshInstance" parent="."]
-mesh = ExtResource( 21 )
-material/0 = null
-material/1 = null
-
-[node name="ramp" type="MeshInstance" parent="."]
-mesh = ExtResource( 22 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-
-[node name="tent" type="MeshInstance" parent="."]
-mesh = ExtResource( 44 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-
-[node name="tentClosed" type="MeshInstance" parent="."]
+visible = false
 mesh = ExtResource( 45 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
+[node name="rail" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+
+[node name="railDouble" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+
+[node name="ramp" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="tent" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="tentClosed" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
 [node name="tentClosedLong" type="MeshInstance" parent="."]
-mesh = ExtResource( 43 )
+visible = false
+mesh = ExtResource( 13 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
 [node name="tentLong" type="MeshInstance" parent="."]
-mesh = ExtResource( 46 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-
-[node name="tentRoof" type="MeshInstance" parent="."]
-mesh = ExtResource( 47 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-
-[node name="tentRoofDouble" type="MeshInstance" parent="."]
-mesh = ExtResource( 48 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-
-[node name="treeLarge" type="MeshInstance" parent="."]
+visible = false
 mesh = ExtResource( 49 )
 material/0 = null
 material/1 = null
 material/2 = null
 material/3 = null
 
+[node name="tentRoof" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="tentRoofDouble" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="treeLarge" type="MeshInstance" parent="."]
+visible = false
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
 [node name="treeSmall" type="MeshInstance" parent="."]
-mesh = ExtResource( 50 )
+visible = false
+mesh = ExtResource( 19 )
 material/0 = null
 material/1 = null
 material/2 = null

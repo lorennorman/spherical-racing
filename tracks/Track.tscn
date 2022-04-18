@@ -1,35 +1,58 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://tracks/offset_tiles.gd" type="Script" id=1]
+[ext_resource path="res://terrain_data/textures/Track_slot0_albedo_bump.packed_tex" type="Texture" id=1]
 [ext_resource path="res://tracks/track_kit/road_library.tres" type="MeshLibrary" id=2]
 [ext_resource path="res://tracks/track_kit/decoration_library.tres" type="MeshLibrary" id=3]
+[ext_resource path="res://addons/zylann.hterrain/hterrain_texture_set.gd" type="Script" id=4]
+[ext_resource path="res://terrain_data/data.hterrain" type="Resource" id=5]
+[ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=6]
+[ext_resource path="res://terrain_data/textures/Track_slot0_normal_roughness.packed_tex" type="Texture" id=7]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 4 )
+mode = 0
+textures = [ [ ExtResource( 1 ) ], [ ExtResource( 7 ) ] ]
 
 [node name="Track" type="Spatial"]
 
 [node name="RoadMap" type="GridMap" parent="."]
 mesh_library = ExtResource( 2 )
-cell_size = Vector3( 0.5, 0.5, 0.5 )
+cell_size = Vector3( 10, 10, 10 )
 cell_center_x = false
 cell_center_y = false
 cell_center_z = false
 data = {
-"cells": PoolIntArray( 65531, 1, 655364, 1, 3, 1441838, 3, 3, 18, 65531, 3, 1441810, 65533, 3, 1441838, 65535, 3, 1441838, 1, 65535, 1048580, 65535, 65535, 1048622 )
+"cells": PoolIntArray( 65515, 9, 1441796, 1, 10, 1441836, 5, 10, 1441837, 7, 10, 1441838, 65519, 10, 1441817, 65523, 10, 1441843, 65527, 10, 1441843, 65531, 10, 1441843, 65533, 10, 1441838, 65511, 13, 655364 )
 }
-script = ExtResource( 1 )
 __meta__ = {
-"_editor_clip_": 0
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 0, 0 )
 }
-offset = Vector3( 0.5, 0, -0.5 )
 
 [node name="DecorationMap" type="GridMap" parent="."]
 mesh_library = ExtResource( 3 )
-cell_size = Vector3( 0.2, 0.2, 0.2 )
+cell_size = Vector3( 8, 0.2, 8 )
 cell_center_y = false
 data = {
-"cells": PoolIntArray( 65518, 0, 1441793, 7, 4, 655362, 65530, 6, 1441794, 65530, 8, 1441794, 65530, 12, 1441792, 2, 13, 5, 8, 13, 5, 3, 65528, 655365, 65531, 65528, 655365, 65530, 65533, 1441794 )
+"cells": PoolIntArray(  )
 }
-script = ExtResource( 1 )
 __meta__ = {
 "_editor_clip_": 0
 }
-offset = Vector3( 0.2, 0, -0.2 )
+
+[node name="HTerrain" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -256, -2, -256 )
+script = ExtResource( 6 )
+_terrain_data = ExtResource( 5 )
+chunk_size = 32
+collision_enabled = true
+collision_layer = 1
+collision_mask = 1
+shader_type = "Classic4Lite"
+custom_shader = null
+custom_globalmap_shader = null
+texture_set = SubResource( 1 )
+shader_params/u_ground_uv_scale = 20
+shader_params/u_depth_blending = true
+shader_params/u_triplanar = false
+shader_params/u_tile_reduction = Plane( 0, 0, 0, 0 )

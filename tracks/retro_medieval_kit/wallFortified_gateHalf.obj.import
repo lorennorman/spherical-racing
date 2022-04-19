@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallFortified_gateHalf.obj-0553bfefeab6df60ca2f5a6abfedbc7e.mesh"
+
+[deps]
+
+files=[ "res://.import/wallFortified_gateHalf.obj-0553bfefeab6df60ca2f5a6abfedbc7e.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/wallFortified_gateHalf.obj"
+dest_files=[ "res://.import/wallFortified_gateHalf.obj-0553bfefeab6df60ca2f5a6abfedbc7e.mesh", "res://.import/wallFortified_gateHalf.obj-0553bfefeab6df60ca2f5a6abfedbc7e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

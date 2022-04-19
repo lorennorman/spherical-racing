@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/house_type02.obj-029531acf07c3e9d02f1a27deee5b205.mesh"
+
+[deps]
+
+files=[ "res://.import/house_type02.obj-029531acf07c3e9d02f1a27deee5b205.mesh" ]
+
+source_file="res://tracks/city_suburban_kit/house_type02.obj"
+dest_files=[ "res://.import/house_type02.obj-029531acf07c3e9d02f1a27deee5b205.mesh", "res://.import/house_type02.obj-029531acf07c3e9d02f1a27deee5b205.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

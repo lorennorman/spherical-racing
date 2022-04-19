@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/road_end.obj-cc5352e1e615b6c04c7698065f419d37.mesh"
+
+[deps]
+
+files=[ "res://.import/road_end.obj-cc5352e1e615b6c04c7698065f419d37.mesh" ]
+
+source_file="res://tracks/city_roads_kit/road_end.obj"
+dest_files=[ "res://.import/road_end.obj-cc5352e1e615b6c04c7698065f419d37.mesh", "res://.import/road_end.obj-cc5352e1e615b6c04c7698065f419d37.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

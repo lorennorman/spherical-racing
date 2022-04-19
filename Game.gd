@@ -10,12 +10,12 @@ func _input(event):
 
 func toggle_paused():
   state = (PAUSED if state == PLAYING else PLAYING)
-  
+
   for child in $PauseMenu.get_children():
     child.visible = (state == PAUSED)
 
   get_tree().paused = (state == PAUSED)
-  
+
 
 
 func _new_vehicle_selected(vehicle_type):

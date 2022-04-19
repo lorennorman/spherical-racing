@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/driveway_short.obj-44cb3462f04b9a222144d7232fbc3b83.mesh"
+
+[deps]
+
+files=[ "res://.import/driveway_short.obj-44cb3462f04b9a222144d7232fbc3b83.mesh" ]
+
+source_file="res://tracks/city_suburban_kit/driveway_short.obj"
+dest_files=[ "res://.import/driveway_short.obj-44cb3462f04b9a222144d7232fbc3b83.mesh", "res://.import/driveway_short.obj-44cb3462f04b9a222144d7232fbc3b83.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

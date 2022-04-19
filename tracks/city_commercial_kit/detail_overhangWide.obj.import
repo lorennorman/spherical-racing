@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detail_overhangWide.obj-2c3168a81d3932cbb95db7065badc5a6.mesh"
+
+[deps]
+
+files=[ "res://.import/detail_overhangWide.obj-2c3168a81d3932cbb95db7065badc5a6.mesh" ]
+
+source_file="res://tracks/city_commercial_kit/detail_overhangWide.obj"
+dest_files=[ "res://.import/detail_overhangWide.obj-2c3168a81d3932cbb95db7065badc5a6.mesh", "res://.import/detail_overhangWide.obj-2c3168a81d3932cbb95db7065badc5a6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 20, 20, 20 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

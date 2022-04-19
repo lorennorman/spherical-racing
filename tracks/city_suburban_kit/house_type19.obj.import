@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/house_type19.obj-f6514f41a7b96120da57846fb56144da.mesh"
+
+[deps]
+
+files=[ "res://.import/house_type19.obj-f6514f41a7b96120da57846fb56144da.mesh" ]
+
+source_file="res://tracks/city_suburban_kit/house_type19.obj"
+dest_files=[ "res://.import/house_type19.obj-f6514f41a7b96120da57846fb56144da.mesh", "res://.import/house_type19.obj-f6514f41a7b96120da57846fb56144da.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

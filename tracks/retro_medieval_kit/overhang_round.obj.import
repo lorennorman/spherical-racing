@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/overhang_round.obj-ca70782eba29f3cb0850228629f4bdce.mesh"
+
+[deps]
+
+files=[ "res://.import/overhang_round.obj-ca70782eba29f3cb0850228629f4bdce.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/overhang_round.obj"
+dest_files=[ "res://.import/overhang_round.obj-ca70782eba29f3cb0850228629f4bdce.mesh", "res://.import/overhang_round.obj-ca70782eba29f3cb0850228629f4bdce.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

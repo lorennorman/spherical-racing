@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/floor_stepsCornerInner.obj-4b671de80ff11cf36c7a5ebce69950fc.mesh"
+
+[deps]
+
+files=[ "res://.import/floor_stepsCornerInner.obj-4b671de80ff11cf36c7a5ebce69950fc.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/floor_stepsCornerInner.obj"
+dest_files=[ "res://.import/floor_stepsCornerInner.obj-4b671de80ff11cf36c7a5ebce69950fc.mesh", "res://.import/floor_stepsCornerInner.obj-4b671de80ff11cf36c7a5ebce69950fc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

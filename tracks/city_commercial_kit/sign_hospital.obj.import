@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sign_hospital.obj-67986241801baee74ce23f7e0a6b8916.mesh"
+
+[deps]
+
+files=[ "res://.import/sign_hospital.obj-67986241801baee74ce23f7e0a6b8916.mesh" ]
+
+source_file="res://tracks/city_commercial_kit/sign_hospital.obj"
+dest_files=[ "res://.import/sign_hospital.obj-67986241801baee74ce23f7e0a6b8916.mesh", "res://.import/sign_hospital.obj-67986241801baee74ce23f7e0a6b8916.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 20, 20, 20 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

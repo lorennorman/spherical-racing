@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/road_curve.obj-b7f62fade3490405732348c14979116f.mesh"
+
+[deps]
+
+files=[ "res://.import/road_curve.obj-b7f62fade3490405732348c14979116f.mesh" ]
+
+source_file="res://tracks/city_roads_kit/road_curve.obj"
+dest_files=[ "res://.import/road_curve.obj-b7f62fade3490405732348c14979116f.mesh", "res://.import/road_curve.obj-b7f62fade3490405732348c14979116f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

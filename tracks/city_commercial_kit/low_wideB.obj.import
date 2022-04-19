@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/low_wideB.obj-66336e31f14dc7e7f7a136e0bec84a31.mesh"
+
+[deps]
+
+files=[ "res://.import/low_wideB.obj-66336e31f14dc7e7f7a136e0bec84a31.mesh" ]
+
+source_file="res://tracks/city_commercial_kit/low_wideB.obj"
+dest_files=[ "res://.import/low_wideB.obj-66336e31f14dc7e7f7a136e0bec84a31.mesh", "res://.import/low_wideB.obj-66336e31f14dc7e7f7a136e0bec84a31.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 20, 20, 20 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

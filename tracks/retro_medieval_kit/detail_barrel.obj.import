@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detail_barrel.obj-76819e86cc39b0c538c0a7600c8279ed.mesh"
+
+[deps]
+
+files=[ "res://.import/detail_barrel.obj-76819e86cc39b0c538c0a7600c8279ed.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/detail_barrel.obj"
+dest_files=[ "res://.import/detail_barrel.obj-76819e86cc39b0c538c0a7600c8279ed.mesh", "res://.import/detail_barrel.obj-76819e86cc39b0c538c0a7600c8279ed.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

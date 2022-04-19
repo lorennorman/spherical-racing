@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/path_short.obj-d519abef83a5551393afec10f11bca95.mesh"
+
+[deps]
+
+files=[ "res://.import/path_short.obj-d519abef83a5551393afec10f11bca95.mesh" ]
+
+source_file="res://tracks/city_suburban_kit/path_short.obj"
+dest_files=[ "res://.import/path_short.obj-d519abef83a5551393afec10f11bca95.mesh", "res://.import/path_short.obj-d519abef83a5551393afec10f11bca95.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

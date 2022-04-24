@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/road_splitBarrier.obj-6c3546e4181233b7a5a3eed3a3346280.mesh"
+
+[deps]
+
+files=[ "res://.import/road_splitBarrier.obj-6c3546e4181233b7a5a3eed3a3346280.mesh" ]
+
+source_file="res://tracks/city_roads_kit/road_splitBarrier.obj"
+dest_files=[ "res://.import/road_splitBarrier.obj-6c3546e4181233b7a5a3eed3a3346280.mesh", "res://.import/road_splitBarrier.obj-6c3546e4181233b7a5a3eed3a3346280.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

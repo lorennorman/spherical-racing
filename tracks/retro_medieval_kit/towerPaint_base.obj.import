@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/towerPaint_base.obj-b10f3625a46f5560009750353e9eb22d.mesh"
+
+[deps]
+
+files=[ "res://.import/towerPaint_base.obj-b10f3625a46f5560009750353e9eb22d.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/towerPaint_base.obj"
+dest_files=[ "res://.import/towerPaint_base.obj-b10f3625a46f5560009750353e9eb22d.mesh", "res://.import/towerPaint_base.obj-b10f3625a46f5560009750353e9eb22d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

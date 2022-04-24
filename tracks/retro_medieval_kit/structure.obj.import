@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/structure.obj-6ce22730d2c1e61b09817b3e756a2973.mesh"
+
+[deps]
+
+files=[ "res://.import/structure.obj-6ce22730d2c1e61b09817b3e756a2973.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/structure.obj"
+dest_files=[ "res://.import/structure.obj-6ce22730d2c1e61b09817b3e756a2973.mesh", "res://.import/structure.obj-6ce22730d2c1e61b09817b3e756a2973.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

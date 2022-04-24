@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/overhang_fence.obj-b953f53942fa31ad95908b4abb935180.mesh"
+
+[deps]
+
+files=[ "res://.import/overhang_fence.obj-b953f53942fa31ad95908b4abb935180.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/overhang_fence.obj"
+dest_files=[ "res://.import/overhang_fence.obj-b953f53942fa31ad95908b4abb935180.mesh", "res://.import/overhang_fence.obj-b953f53942fa31ad95908b4abb935180.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -37,7 +37,7 @@
 [ext_resource path="res://tracks/track_kit/lightPost_exclusive.obj" type="ArrayMesh" id=35]
 [ext_resource path="res://tracks/track_kit/lightRed.obj" type="ArrayMesh" id=36]
 [ext_resource path="res://tracks/track_kit/grass.obj" type="ArrayMesh" id=37]
-[ext_resource path="res://tracks/track_kit/MeshLibrarySource.gd" type="Script" id=38]
+[ext_resource path="res://tracks/MeshLibrarySource.gd" type="Script" id=38]
 [ext_resource path="res://tracks/track_kit/overhead.obj" type="ArrayMesh" id=39]
 [ext_resource path="res://tracks/track_kit/overheadLights.obj" type="ArrayMesh" id=40]
 [ext_resource path="res://tracks/track_kit/pitsGarageClosed.obj" type="ArrayMesh" id=41]
@@ -58,6 +58,7 @@
 [ext_resource path="res://tracks/track_kit/lightPostModern.obj" type="ArrayMesh" id=56]
 [ext_resource path="res://tracks/track_kit/lightPostLarge.obj" type="ArrayMesh" id=57]
 [ext_resource path="res://tracks/track_kit/lightColored.obj" type="ArrayMesh" id=58]
+
 
 [node name="MeshLibrarySource" type="Spatial"]
 script = ExtResource( 38 )

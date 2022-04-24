@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wall_solid.obj-1a6f7bb52163a7a1f41fd20a5cbe05ea.mesh"
+
+[deps]
+
+files=[ "res://.import/wall_solid.obj-1a6f7bb52163a7a1f41fd20a5cbe05ea.mesh" ]
+
+source_file="res://tracks/city_commercial_kit/wall_solid.obj"
+dest_files=[ "res://.import/wall_solid.obj-1a6f7bb52163a7a1f41fd20a5cbe05ea.mesh", "res://.import/wall_solid.obj-1a6f7bb52163a7a1f41fd20a5cbe05ea.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 20, 20, 20 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

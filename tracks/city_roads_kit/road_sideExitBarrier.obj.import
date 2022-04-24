@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/road_sideExitBarrier.obj-0ce980e7d235568be756aae344f0310e.mesh"
+
+[deps]
+
+files=[ "res://.import/road_sideExitBarrier.obj-0ce980e7d235568be756aae344f0310e.mesh" ]
+
+source_file="res://tracks/city_roads_kit/road_sideExitBarrier.obj"
+dest_files=[ "res://.import/road_sideExitBarrier.obj-0ce980e7d235568be756aae344f0310e.mesh", "res://.import/road_sideExitBarrier.obj-0ce980e7d235568be756aae344f0310e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,6 +1,6 @@
 [gd_scene load_steps=60 format=2]
 
-[ext_resource path="res://tracks/track_kit/MeshLibrarySource.gd" type="Script" id=1]
+[ext_resource path="res://tracks/MeshLibrarySource.gd" type="Script" id=1]
 [ext_resource path="res://tracks/track_kit/roadSplitRoundLarge.obj" type="ArrayMesh" id=2]
 [ext_resource path="res://tracks/track_kit/roadSplitLarge.obj" type="ArrayMesh" id=3]
 [ext_resource path="res://tracks/track_kit/roadStraightArrow.obj" type="ArrayMesh" id=4]

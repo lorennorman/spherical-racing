@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/road_drivewaySingle.obj-f3e90793eb61e47dad5708f3360eef29.mesh"
+
+[deps]
+
+files=[ "res://.import/road_drivewaySingle.obj-f3e90793eb61e47dad5708f3360eef29.mesh" ]
+
+source_file="res://tracks/city_roads_kit/road_drivewaySingle.obj"
+dest_files=[ "res://.import/road_drivewaySingle.obj-f3e90793eb61e47dad5708f3360eef29.mesh", "res://.import/road_drivewaySingle.obj-f3e90793eb61e47dad5708f3360eef29.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

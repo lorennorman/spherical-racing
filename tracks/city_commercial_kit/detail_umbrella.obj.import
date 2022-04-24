@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detail_umbrella.obj-2cfce1b52c388bd05e6be9a39382d2ab.mesh"
+
+[deps]
+
+files=[ "res://.import/detail_umbrella.obj-2cfce1b52c388bd05e6be9a39382d2ab.mesh" ]
+
+source_file="res://tracks/city_commercial_kit/detail_umbrella.obj"
+dest_files=[ "res://.import/detail_umbrella.obj-2cfce1b52c388bd05e6be9a39382d2ab.mesh", "res://.import/detail_umbrella.obj-2cfce1b52c388bd05e6be9a39382d2ab.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 20, 20, 20 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

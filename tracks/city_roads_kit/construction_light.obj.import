@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/construction_light.obj-78d2da7f769436a29cd3a303be9a5a73.mesh"
+
+[deps]
+
+files=[ "res://.import/construction_light.obj-78d2da7f769436a29cd3a303be9a5a73.mesh" ]
+
+source_file="res://tracks/city_roads_kit/construction_light.obj"
+dest_files=[ "res://.import/construction_light.obj-78d2da7f769436a29cd3a303be9a5a73.mesh", "res://.import/construction_light.obj-78d2da7f769436a29cd3a303be9a5a73.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

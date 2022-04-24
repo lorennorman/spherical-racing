@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roof_side.obj-aff8baffc1a6c78acb6847c3286a0416.mesh"
+
+[deps]
+
+files=[ "res://.import/roof_side.obj-aff8baffc1a6c78acb6847c3286a0416.mesh" ]
+
+source_file="res://tracks/city_commercial_kit/roof_side.obj"
+dest_files=[ "res://.import/roof_side.obj-aff8baffc1a6c78acb6847c3286a0416.mesh", "res://.import/roof_side.obj-aff8baffc1a6c78acb6847c3286a0416.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 20, 20, 20 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

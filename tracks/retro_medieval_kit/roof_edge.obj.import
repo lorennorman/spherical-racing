@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roof_edge.obj-1b78576a6c2bb6f5cbec239ea2f53084.mesh"
+
+[deps]
+
+files=[ "res://.import/roof_edge.obj-1b78576a6c2bb6f5cbec239ea2f53084.mesh" ]
+
+source_file="res://tracks/retro_medieval_kit/roof_edge.obj"
+dest_files=[ "res://.import/roof_edge.obj-1b78576a6c2bb6f5cbec239ea2f53084.mesh", "res://.import/roof_edge.obj-1b78576a6c2bb6f5cbec239ea2f53084.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

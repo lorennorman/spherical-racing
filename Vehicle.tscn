@@ -18,9 +18,8 @@ script = ExtResource( 4 )
 [node name="VehicleMesh" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
 
-[node name="Camera" type="Camera" parent="VehicleMesh"]
-transform = Transform( 0.999977, 0.00671947, -1.2341e-09, -0.00603039, 0.897431, 0.441114, 0.00296405, -0.441104, 0.897451, -1.21967, 7.98895, 6.0335 )
-far = 234.2
+[node name="ChasePivot" type="Position3D" parent="VehicleMesh"]
+transform = Transform( 1, 0, 0, 0, 0.921721, 0.387853, 0, -0.387853, 0.921721, -1.21967, 4.32515, 6.0335 )
 
 [node name="RayCast" type="RayCast" parent="VehicleMesh"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )

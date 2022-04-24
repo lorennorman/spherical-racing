@@ -17,7 +17,6 @@ func toggle_paused():
   get_tree().paused = (state == PAUSED)
   
 
-
 func _new_vehicle_selected(vehicle_type):
   $World/Vehicle/VehicleMesh.vehicle = vehicle_type
   toggle_paused()

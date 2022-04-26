@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://PlayerCameras.gd" type="Script" id=1]
-[ext_resource path="res://ChaseCamera.gd" type="Script" id=2]
 [ext_resource path="res://ChaseCamera.tscn" type="PackedScene" id=3]
 
 [node name="PlayerCameras" type="Control"]
@@ -44,5 +43,4 @@ size = Vector2( 524, 600 )
 handle_input_locally = false
 render_target_update_mode = 3
 
-[node name="ChaseCamera2" type="Camera" parent="HSplitContainer/PlayerTwoViewport/Viewport2"]
-script = ExtResource( 2 )
+[node name="ChaseCamera2" parent="HSplitContainer/PlayerTwoViewport/Viewport2" instance=ExtResource( 3 )]

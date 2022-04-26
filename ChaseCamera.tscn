@@ -3,4 +3,5 @@
 [ext_resource path="res://ChaseCamera.gd" type="Script" id=1]
 
 [node name="ChaseCamera" type="Camera"]
+far = 200.0
 script = ExtResource( 1 )

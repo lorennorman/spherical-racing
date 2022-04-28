@@ -14,7 +14,7 @@ dest_files=[ "res://.import/low_buildingA.obj-4a63b3ec0972c40574a1b0888852deb0.m
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

@@ -14,7 +14,7 @@ dest_files=[ "res://.import/low_wideB.obj-66336e31f14dc7e7f7a136e0bec84a31.mesh"
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

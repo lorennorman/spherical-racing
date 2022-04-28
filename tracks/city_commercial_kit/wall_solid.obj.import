@@ -14,7 +14,7 @@ dest_files=[ "res://.import/wall_solid.obj-1a6f7bb52163a7a1f41fd20a5cbe05ea.mesh
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

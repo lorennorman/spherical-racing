@@ -14,7 +14,7 @@ dest_files=[ "res://.import/flagCheckers.obj-74da1aaa9d0f93e8183c31c894b6ac1e.me
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 5, 5, 5 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

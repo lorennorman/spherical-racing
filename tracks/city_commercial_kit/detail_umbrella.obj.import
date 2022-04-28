@@ -14,7 +14,7 @@ dest_files=[ "res://.import/detail_umbrella.obj-2cfce1b52c388bd05e6be9a39382d2ab
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

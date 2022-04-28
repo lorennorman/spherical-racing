@@ -14,7 +14,7 @@ dest_files=[ "res://.import/wall_windowD.obj-457833ede1f91a4c79c906c00dd02e3e.me
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

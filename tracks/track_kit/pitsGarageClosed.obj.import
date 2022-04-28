@@ -14,7 +14,7 @@ dest_files=[ "res://.import/pitsGarageClosed.obj-05560c55d254874ee88f7d9ad8a8e1d
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 5, 5, 5 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

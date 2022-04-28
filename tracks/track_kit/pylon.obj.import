@@ -14,7 +14,7 @@ dest_files=[ "res://.import/pylon.obj-1d455c56547e9017cf30b2b71ac46424.mesh", "r
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 5, 5, 5 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

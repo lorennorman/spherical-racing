@@ -14,7 +14,7 @@ dest_files=[ "res://.import/roof_center.obj-cb1af1cbfadc75fdab0ac960bbf7e687.mes
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

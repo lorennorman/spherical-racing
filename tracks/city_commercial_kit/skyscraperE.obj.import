@@ -14,7 +14,7 @@ dest_files=[ "res://.import/skyscraperE.obj-0b8c3287633d3eba0ae75917449eb423.mes
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

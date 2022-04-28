@@ -14,7 +14,7 @@ dest_files=[ "res://.import/detail_overhang.obj-07b73616a8f9e1dad5a425a4e3188e36
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 20, 20, 20 )
+scale_mesh=Vector3( 10, 10, 10 )
 offset_mesh=Vector3( 0, 0, 0 )
 octahedral_compression=true
 optimize_mesh_flags=4286

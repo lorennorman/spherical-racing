@@ -5,7 +5,7 @@ onready var rigid_body = $RigidBody
 onready var ground_ray = $VehicleMesh/RayCast
 
 var offset_mesh_from_sphere = Vector3(0, -1, 0)
-export var acceleration = 50
+export var acceleration = 35
 export(int, 0, 7) var player_number
 var steering = 21
 var turn_speed = 7
@@ -16,6 +16,10 @@ var rotate_input = 0
 
 var last_frame_on_ground = false
 
+
+func _input(event):
+  if event.is_action_pressed("p%s_boost" % player_number):
+    apply_boost()
 
 func _process(_delta):
   if !player_number and player_number != 0:
@@ -54,6 +58,10 @@ func steer_left_strength():
 
 func steer_right_strength():
   return Input.get_action_strength("p%s_steer_right" % player_number)
+
+
+func apply_boost():
+  speed_input = acceleration * 20
 
 
 func _physics_process(delta):

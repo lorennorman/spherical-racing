@@ -57,8 +57,32 @@ func _ready():
       { "scancode": KEY_D } if p1 else null,
       { "scancode": KEY_RIGHT } if p2 else null,
      ])
-  
-  
+
+    add_player_action(i, "offensive", [
+#      { "device": i, "axis": -JOY_AXIS_1 },
+      { "scancode": KEY_E } if p1 else null,
+      { "scancode": KEY_PERIOD } if p2 else null,
+     ])
+
+    add_player_action(i, "defensive", [
+#      { "device": i, "axis": -JOY_AXIS_1 },
+      { "scancode": KEY_Q } if p1 else null,
+      { "scancode": KEY_SLASH } if p2 else null,
+     ])  
+
+    add_player_action(i, "boost", [
+#      { "device": i, "axis": -JOY_AXIS_1 },
+      { "scancode": KEY_F } if p1 else null,
+      { "scancode": KEY_COMMA } if p2 else null,
+     ])
+
+    add_player_action(i, "distract", [
+#      { "device": i, "axis": -JOY_AXIS_1 },
+      { "scancode": KEY_R } if p1 else null,
+      { "scancode": KEY_M } if p2 else null,
+     ])
+
+
 func _input(event):
   if event.is_action_pressed("ui_cancel"):
     toggle_paused()

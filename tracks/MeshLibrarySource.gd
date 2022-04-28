@@ -63,6 +63,9 @@ func add_to_mesh_library(library: MeshLibrary, instance: MeshInstance):
 
   # Preview image generation
   instance.visible = true
+  var aabb = instance.mesh.get_aabb()
+  var mid_point = aabb.position + (aabb.size/2)
+  preview_camera.look_at(mid_point, Vector3.UP)
   # TODO: zoom/center camera to instance extents (camera.look_at(instance))
 
   yield(get_tree(), "idle_frame")

@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://vehicles/VehicleMesh.tscn" type="PackedScene" id=1]
+[ext_resource path="res://VehicleRespawn.gd" type="Script" id=2]
 [ext_resource path="res://Vehicle.gd" type="Script" id=4]
 
 [sub_resource type="PhysicsMaterial" id=1]
@@ -38,8 +39,10 @@ physics_material_override = SubResource( 1 )
 gravity_scale = 8.0
 continuous_cd = true
 angular_damp = 5.0
+script = ExtResource( 2 )
 
 [node name="CSGSphere" type="CSGSphere" parent="RigidBody"]
+visible = false
 radius = 1.66
 material = SubResource( 2 )
 

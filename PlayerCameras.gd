@@ -1,6 +1,7 @@
 extends Control
 
 func _ready():
+  resize_splits()
   get_tree().get_root().connect("size_changed", self, "resize_splits")
 
   print('init default game')

@@ -6,7 +6,7 @@ onready var ground_ray = $VehicleMesh/RayCast
 
 var offset_mesh_from_sphere = Vector3(0, -1, 0)
 export var acceleration = 35
-export(int, 0, 7) var player_number
+export(int, 1, 8) var player_number = 1
 var steering = 21
 var turn_speed = 7
 var body_tilt = 35
@@ -17,9 +17,17 @@ var rotate_input = 0
 var last_frame_on_ground = false
 
 
+func _ready():
+  var track = get_parent()
+  var spawn_point = track.get_node("PlayerSpawns/P%s" % player_number).global_transform
+  if spawn_point:
+    self.global_transform = spawn_point
+
+
 func _input(event):
   if event.is_action_pressed("p%s_boost" % player_number):
     apply_boost()
+
 
 func _process(_delta):
   if !player_number and player_number != 0:
@@ -75,7 +83,7 @@ func _physics_process(delta):
 
   # Rotate the wheels (wheels just vanish)
   # mesh.rotate_wheels(rotate_input)
-  
+
   # Tilt body for effect (gets stuck)
 #  var t = -rotate_input * rigid_body.linear_velocity.length() / body_tilt
 #  mesh.rotation.z = lerp(mesh.rotation.z, t, 10 * delta)

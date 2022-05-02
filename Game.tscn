@@ -11,6 +11,7 @@
 background_mode = 2
 background_sky = SubResource( 2 )
 ambient_light_color = Color( 0.615686, 0.6, 0.517647, 1 )
+fog_enabled = true
 
 [node name="Game" type="Spatial"]
 pause_mode = 2
@@ -29,14 +30,14 @@ environment = SubResource( 1 )
 transform = Transform( 1, 0, 0, 0, -0.97067, 0.240414, 0, -0.240414, -0.97067, 0, 28.7673, 0 )
 shadow_enabled = true
 
-[node name="Vehicle" parent="World" instance=ExtResource( 3 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 88.5345, 0.989996, 359.32 )
-
-[node name="Vehicle2" parent="World" instance=ExtResource( 3 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 77.7785, 0.989996, 349.277 )
-player_number = 1
-
 [node name="Track" parent="World" instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 68.3037, -3.8147e-06, 261.52 )
+
+[node name="Vehicle" parent="World/Track" instance=ExtResource( 3 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 20.2308, 0.99, 97.8 )
+
+[node name="Vehicle2" parent="World/Track" instance=ExtResource( 3 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 9.4748, 0.99, 87.757 )
+player_number = 2
 
 [connection signal="new_vehicle_selected" from="PauseMenu" to="." method="_new_vehicle_selected"]

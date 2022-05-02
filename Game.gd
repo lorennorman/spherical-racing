@@ -30,9 +30,9 @@ func add_player_action(player_number, action_name, events):
       InputMap.action_add_event(player_action, input_event)
 
 func _ready():
-  for i in range(0,7):
-    var p1 = i == 0
-    var p2 = i == 1
+  for i in range(1,8):
+    var p1 = i == 1
+    var p2 = i == 2
 
     add_player_action(i, "accelerate", [
       { "device": i, "axis": -JOY_AXIS_0 },

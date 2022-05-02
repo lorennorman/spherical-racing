@@ -5,3 +5,9 @@
 [node name="ChaseCamera" type="Camera"]
 far = 200.0
 script = ExtResource( 1 )
+depth_threshold = 0.08
+depth_multiplier = 500.0
+max_edge_alpha = 0.5
+edge_alpha_multiplier = 10.0
+edge_color = Color( 0.164706, 0.164706, 0.164706, 1 )
+depth_use_laplace = false

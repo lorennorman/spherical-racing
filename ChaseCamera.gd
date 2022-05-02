@@ -1,4 +1,4 @@
-extends Camera
+extends "res://addons/jm_pp_outlines/jm_pp_outlines_camera.gd"
 
 var pivot: Position3D
 var target: RigidBody = null setget set_target
